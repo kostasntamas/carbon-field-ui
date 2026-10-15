@@ -16,8 +16,8 @@ A simple admin interface for creating custom fields with [Carbon Fields](https:/
 
 Use Carbon Fields' own helper functions with the meta key you set on the field:
 
-```php carbon_get_post_meta( get_the_ID(), 'subtitle' ); carbon_get_term_meta( get_queried_object_id(), 'tagline' ); carbon_get_user_meta( get_current_user_id(), 'phone' ); carbon_get_theme_option( 'company_address' );
-
+```php
+carbon_get_post_meta( get_the_ID(), 'subtitle' ); carbon_get_term_meta( get_queried_object_id(), 'tagline' ); carbon_get_user_meta( get_current_user_id(), 'phone' ); carbon_get_theme_option( 'company_address' );
 ```
 
 ## Supported field types
